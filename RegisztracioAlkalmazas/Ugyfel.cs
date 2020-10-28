@@ -51,7 +51,6 @@ namespace RegisztracioAlkalmazas
             return string.Format($"{nev};{szuletesiEv};{nem};{kedvenchobbi};{formatHobbik()}");
         }
 
-
         private string formatHobbik()
         {
             string hobbikString = "";
